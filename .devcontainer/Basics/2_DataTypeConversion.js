@@ -1,3 +1,10 @@
+/*There are 2 types of datatype ie. primitive and non primitive 
+1: Primitive: means pass by value (7 types)
+String, Number, Boolean, BigInt, null, undefined, Symbol
+
+2: Non-Primitive: means pass by reference
+ Array, Objects, Functions*/
+
 let score = 33;
 console.log(typeof score)  
 // OR console.log(typeof (score))
