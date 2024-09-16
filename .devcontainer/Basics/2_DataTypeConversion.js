@@ -5,6 +5,7 @@ String, Number, Boolean, BigInt, null, undefined, Symbol
 2: Non-Primitive: means pass by reference
  Array, Objects, Functions*/
 
+
 let score = 33;
 console.log(typeof score)  
 // OR console.log(typeof (score))
