@@ -46,13 +46,13 @@ const users = [
 console.log(users[1].email);
 
 //access all keys/values of an obj
-console.log(Object.keys(regularUser));
+//console.log(Object.keys(regularUser));
 //console.log(Object.values(regularUser));
 //console.log(Object.entries(regularUser));       //convert each key-value pair in seperate array
-console.log(regularUser.hasOwnProperty('fullname')); 
+//console.log(regularUser.hasOwnProperty('fullname')); 
 
 
-//Nested Objects:
+//NESTED OBJECTS:
 const regularUser = {
     email: "harry@gmail.com",
     fullname: {
@@ -63,6 +63,31 @@ const regularUser = {
     } 
 }
 //console.log(regularUser.fullname.userfullName.firstName); or console.log(regularUser["fullname"]["firstName"]);
+
+//DISPLAYING OBJECT
+const member ={
+    name: "Yoyo",
+    age: 26,
+    city: "New York"
+}
+document.getElementById("demo").innerHTML = member;
+
+/* OBJECT DE-STRUCTURE: generally if we want to access object property we do: objName.propertyName , suppose we 
+want to access the property several time then each time we have to write : objName.propertyName which is hectic 
+so to get rid of this we de structur the object ie.  is a syntax that allows you to extract values from objects
+and assign them to variables in a concise way.*/
+const course = {
+    courseName: "Javascript",
+    price: 2999,
+    courseInstructor: "Shweta"
+}
+
+//without deconstruct
+const name = course.courseName;
+const rate = course.price;
+
+//with deconstruct
+const {Name, price, teacher} = person;
 
 
 
