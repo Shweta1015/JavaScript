@@ -9,7 +9,7 @@ function addTwoNum(num1, num2){
 // console.log("Result: ", result);
 
 function login(username){
-    return `${username} logged in`
+    return `${username} logged in`;
 }
 //console.log(login("Shweta"));
 

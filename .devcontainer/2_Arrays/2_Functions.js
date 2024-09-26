@@ -6,8 +6,8 @@ let colours = ["Red", "Yellow", "white"];
 // console.log(flowers);
 
 //concat()
-// let all = flowers.concat(colours);
-// console.log(all);
+let all = flowers.concat(colours);
+console.log(all);
 
 //spread : It can concatinate multiple arrays, and it is mostly used.
 // let SpreadAll = [...flowers, ...colours];
@@ -21,10 +21,10 @@ let colours = ["Red", "Yellow", "white"];
 // console.log(Array.isArray("Rose"));   //to check if the array is created or not
 //console.log(Array.from("Shweta"));      //this will create the array with [s,h,w,e,t,a]
 
-let score1 = 100;
-let score2 = 200;
-let score3 = 300;
-console.log(Array.of(score1, score2, score3));    //will create an array of all variables.
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
+// console.log(Array.of(score1, score2, score3));    //will create an array of all variables.
 
 
 

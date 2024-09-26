@@ -6,7 +6,7 @@ a = 20 (wrong)
  */
 
 /*2. var: It was the first variable and only used in old programs . 
-It is globbally accessible variable. 
+It is globally accessible variable. 
 eg. var a = "Radhe Krishna"*/
 
 /*3. let: It is most probably in use and the value can be modified, it's scope is block based 
